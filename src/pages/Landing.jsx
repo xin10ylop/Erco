@@ -1,5 +1,4 @@
 import { Link } from 'react-router-dom';
-import Wordmark from '../components/Wordmark.jsx';
 
 const cards = [
   {
@@ -27,7 +26,12 @@ export default function Landing() {
   return (
     <div className="mx-auto max-w-5xl px-10 py-12">
       <div className="flex items-start justify-between border-b border-cream-border pb-6">
-        <Wordmark />
+        <div>
+          <div className="text-sm font-bold tracking-wide text-navy">
+            Erco Energía
+          </div>
+          <div className="mt-1 h-[2px] w-10 bg-accent" />
+        </div>
         <div className="text-right text-xs font-semibold uppercase tracking-wider text-muted">
           Prototype · May 2026
         </div>
