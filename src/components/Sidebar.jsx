@@ -1,7 +1,6 @@
 import { NavLink } from 'react-router-dom';
 
 const items = [
-  { to: '/', label: 'Home', end: true },
   { to: '/submit', label: 'Submit a request' },
   { to: '/triage', label: 'Triage queue' },
 ];
